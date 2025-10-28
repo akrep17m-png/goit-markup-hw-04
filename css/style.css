@@ -46,6 +46,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
 }
 
 .page-header 
@@ -113,6 +114,26 @@ img {
 .nav-list 
 .link:focus {
     color: #404bbf;
+}
+
+.page-header 
+.nav-list 
+.active {
+    color: #404bbf;
+}
+
+.page-header 
+.nav-list 
+.active:after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+    border-radius: 10px;
+    position: relative;
+    color: #404bbf;
+    top: 24px;
 }
 
 .page-header 
