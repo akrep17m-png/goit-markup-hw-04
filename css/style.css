@@ -228,12 +228,12 @@ SECTION HERO
 SECTION TWO 
 */
 .page-main
-.section-two {
+.section-one {
     padding: 120px 0;
 }
 
 .page-main 
-.section-two 
+.section-one 
 .section-title {
     letter-spacing: 0.02em;
     position: absolute;
@@ -247,15 +247,27 @@ SECTION TWO
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.section-two
+.section-one
 .feature-list {
     width: 1128px;
     display: flex;
     justify-content: space-around;
     gap: 24px;
-
 }
-.section-two 
+
+.section-one 
+.feature-list
+.feature
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+}
+
+.section-one 
 .feature-list
 .feature {
     display: flex;
@@ -268,7 +280,7 @@ SECTION TWO
 }
 
 .page-main 
-.section-two
+.section-one
 .list-title {
     margin-bottom: 8px;
     font-weight: 500;
