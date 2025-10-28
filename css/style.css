@@ -39,6 +39,9 @@ img {
 /* HEADER STYLE */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header 
@@ -258,10 +261,13 @@ SECTION TWO
 .section-one 
 .feature-list
 .feature
-.container{
+.icon-box{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #f4f4fd;
