@@ -406,7 +406,7 @@ SECTION TEAM
 .team-list
 .contain
 .social-list
-.social-link {
+.social {
     width: 40px;
     height: 40px;
 }
@@ -415,7 +415,7 @@ SECTION TEAM
 .section-team 
 .team-list 
 .contain 
-.social-list 
+.social-list
 .social-link {
     display: flex;
     align-items: center;
