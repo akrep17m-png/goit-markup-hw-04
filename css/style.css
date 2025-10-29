@@ -37,19 +37,16 @@ img {
 }
 
 /* HEADER STYLE */
-.page-header {
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
 .page-header 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header 
@@ -170,8 +167,9 @@ MAIN SECTION
 SECTION HERO 
 */
 .page-main
-.section-hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.jpg);
+.section-hero
+.container {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -387,6 +385,7 @@ SECTION TEAM
 .section-team 
 .team-text {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .page-main 
@@ -401,22 +400,20 @@ SECTION TEAM
 }
 
 .page-main 
-.section-team 
-.social-list
-.team-list 
-.team
+.section-team
+.team-list
 .contain
+.social-list
 .social {
     width: 40px;
     height: 40px;
 }
 
 .page-main 
-.section-team
-.team-list
-.team
-.contain
-.social-list 
+.section-team 
+.team-list 
+.contain 
+.social-list
 .social-link {
     display: flex;
     align-items: center;
